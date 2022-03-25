@@ -1,0 +1,138 @@
+
+
+Server Error in '/' Application.
+Memory gates checking failed because the free memory (150896640 bytes) is less than 5% of total memory.  As a result, the service will not be available for incoming requests.  To resolve this, either reduce the load on the machine or adjust the value of minFreeMemoryPercentageToActivateService on the serviceHostingEnvironment config element.
+Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+Exception Details: System.InsufficientMemoryException: Memory gates checking failed because the free memory (150896640 bytes) is less than 5% of total memory.  As a result, the service will not be available for incoming requests.  To resolve this, either reduce the load on the machine or adjust the value of minFreeMemoryPercentageToActivateService on the serviceHostingEnvironment config element.
+
+Source Error:
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.
+
+Stack Trace:
+
+
+[InsufficientMemoryException: Memory gates checking failed because the free memory (150896640 bytes) is less than 5% of total memory.  As a result, the service will not be available for incoming requests.  To resolve this, either reduce the load on the machine or adjust the value of minFreeMemoryPercentageToActivateService on the serviceHostingEnvironment config element.]
+   System.ServiceModel.Activation.ServiceMemoryGates.Check(Int32 minFreeMemoryPercentage, Boolean throwOnLowMemory, UInt64& availableMemoryBytes) +56770
+   System.ServiceModel.HostingManager.CheckMemoryCloseIdleServices(EventTraceActivity eventTraceActivity) +99
+   System.ServiceModel.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity) +651
+
+[ServiceActivationException: The service '/Service.svc' cannot be activated due to an exception during compilation.  The exception message is: Memory gates checking failed because the free memory (150896640 bytes) is less than 5% of total memory.  As a result, the service will not be available for incoming requests.  To resolve this, either reduce the load on the machine or adjust the value of minFreeMemoryPercentageToActivateService on the serviceHostingEnvironment config element..]
+   System.Runtime.AsyncResult.End(IAsyncResult result) +513025
+   System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result) +182
+   System.ServiceModel.Activation.ServiceHttpHandler.EndProcessRequest(IAsyncResult result) +12
+   System.Web.CallHandlerExecutionStep.InvokeEndHandler(IAsyncResult ar) +161
+   System.Web.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar) +128
+   
+   
+   
+   There was an error downloading 'http://localhost:61157/Service.svc/$metadata'.
+The request failed with the error message:
+--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+            <br><br>
+
+            <b> Exception Details: </b>System.InvalidOperationException: The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found.<br><br>
+
+            <b>Source Error:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code>
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Stack Trace:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[InvalidOperationException: The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found.]
+   System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost(String constructorString, Uri[] baseAddresses) +57321
+   System.ServiceModel.HostingManager.CreateService(String normalizedVirtualPath, EventTraceActivity eventTraceActivity) +1489
+   System.ServiceModel.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity) +53
+   System.ServiceModel.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity) +666
+
+[ServiceActivationException: The service '/Service.svc' cannot be activated due to an exception during compilation.  The exception message is: The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found..]
+   System.Runtime.AsyncResult.End(IAsyncResult result) +513025
+   System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result) +182
+   System.ServiceModel.Activation.ServiceHttpHandler.EndProcessRequest(IAsyncResult result) +12
+   System.Web.CallHandlerExecutionStep.InvokeEndHandler(IAsyncResult ar) +161
+   System.Web.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar) +128
+</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b> Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4465.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[InvalidOperationException]: The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found.
+   at System.ServiceModel.Activation.ServiceHostFactory.CreateServiceHost(String constructorString, Uri[] baseAddresses)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.CreateService(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.ActivateService(ServiceActivationInfo serviceActivationInfo, EventTraceActivity eventTraceActivity)
+   at System.ServiceModel.ServiceHostingEnvironment.HostingManager.EnsureServiceAvailable(String normalizedVirtualPath, EventTraceActivity eventTraceActivity)
+[ServiceActivationException]: The service '/Service.svc' cannot be activated due to an exception during compilation.  The exception message is: The type 'EqtyPMS.Service.Service1', provided as the Service attribute value in the ServiceHost directive, or provided in the configuration element system.serviceModel/serviceHostingEnvironment/serviceActivations could not be found..
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Activation.HostedHttpRequestAsyncResult.End(IAsyncResult result)
+   at System.ServiceModel.Activation.ServiceHttpHandlerFactory.ServiceHttpHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.InvokeEndHandler(IAsyncResult ar)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.OnAsyncHandlerCompletion(IAsyncResult ar)
+-->
+--.
+Metadata contains a reference that cannot be resolved: 'http://localhost:61157/Service.svc'.
+The requested service, 'http://localhost:61157/Service.svc' could not be activated. See the server's diagnostic trace logs for more information.
+If the service is defined in the current solution, try building the solution and adding the service reference again.
