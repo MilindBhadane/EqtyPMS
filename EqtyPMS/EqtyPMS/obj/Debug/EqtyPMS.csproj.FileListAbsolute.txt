@@ -1,0 +1,14 @@
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\bin\Debug\EqtyPMS.exe.config
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\bin\Debug\EqtyPMS.exe
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\bin\Debug\EqtyPMS.pdb
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS.csprojResolveAssemblyReference.cache
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\MainWindow.g.cs
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\App.g.cs
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS_MarkupCompile.cache
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS_MarkupCompile.lref
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\MainWindow.baml
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS.g.resources
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS.Properties.Resources.resources
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS.csproj.GenerateResource.Cache
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS.exe
+c:\users\milind\documents\visual studio 2015\Projects\EqtyPMS\EqtyPMS\obj\Debug\EqtyPMS.pdb
